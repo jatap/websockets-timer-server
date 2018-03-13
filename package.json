@@ -4,11 +4,15 @@
   "description": "WebSockets Server",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server"
   },
   "keywords": [
     "websockets"
   ],
   "author": "Julio Antúnez Tarín <julio@giffgaff.co.uk>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
 }
