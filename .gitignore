@@ -1,0 +1,15 @@
+# Node
+node_modules/
+
+# IDE's
+.vscode/
+
+# Unit tests reports
+reports/
+
+# Other
+.tmp
+.DS_Store
+.npm_install_log
+npm-debug.log*
+.eslintrc
